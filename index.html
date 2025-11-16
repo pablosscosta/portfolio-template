@@ -57,7 +57,7 @@
       <div class="max-w-3xl mx-auto px-4 flex flex-col items-center">
         <!-- Avatar -->
         <img
-          src="img/avatar.jpg"
+          src="assets/img/avatar.jpg"
           alt="Foto de Pablo Costa"
           class="w-28 h-28 rounded-full border-2 border-blue-500 shadow-lg mb-4 object-cover transition-transform duration-300 hover:scale-105"
         />
@@ -93,35 +93,49 @@
       <div class="max-w-6xl mx-auto px-4">
         <h2 class="text-3xl md:text-4xl font-bold text-blue-600 text-center mb-8 tracking-wide">Projetos</h2>
 
-        <div class="flex gap-8 overflow-x-auto pb-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- Projeto 001 -->
-          <div data-aos="zoom-in" class="bg-gray-50 border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition flex-shrink-0 w-full md:w-1/2 flex flex-col items-center text-center">
+          <div data-aos="zoom-in" class="bg-white border border-gray-200 rounded-xl p-6 shadow-md hover:shadow-lg transition flex flex-col items-center text-center">
+            <img src="assets/img/projeto-001.png" alt="Portfólio Profissional" class="h-48 object-cover mb-4 rounded-lg" />
+
             <h3 class="text-xl font-semibold text-blue-600 mb-2">Portfólio Profissional</h3>
-            <img  class="h-48 object-cover mb-4"
-                  src="img/projeto-001.png"
-                  alt="Portfólio Profissional"
-            />
+
             <p class="text-gray-600 mb-4">
-              Esta é a página que você está vendo. Um projeto pessoal construído do zero com HTML, CSS e JavaScript, servindo como uma vitrine de minhas habilidades e minha transição para a área de Quality Assurance.
+              Página pessoal construída com HTML, CSS e JavaScript, servindo como vitrine de habilidades e transição para QA.
             </p>
+
+            <div class="flex flex-wrap justify-center gap-2 mb-4">
+              <span class="bg-gray-200 text-sm px-2 py-1 rounded">HTML</span>
+              <span class="bg-gray-200 text-sm px-2 py-1 rounded">CSS</span>
+              <span class="bg-gray-200 text-sm px-2 py-1 rounded">JavaScript</span>
+            </div>
+
+            <div class="flex gap-4">
+              <a href="https://github.com/pablosscosta/portfolio" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Ver repositório</a>
+              <a href="https://pablosscosta.github.io/portfolio/" target="_blank" class="bg-gray-100 text-blue-600 px-4 py-2 rounded hover:bg-gray-200 transition">Ver online</a>
+            </div>
           </div>
 
           <!-- Projeto 002 -->
-          <div data-aos="zoom-in" class="bg-gray-50 border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition flex-shrink-0 w-full md:w-1/2 flex flex-col items-center text-center">
-            <h3 class="text-xl font-semibold text-blue-600 mb-2">Estudo de Caso: Testes Manuais no Todoist</h3>
-            <img  class="h-48 object-cover mb-4"
-                  src="img/projeto-002.png"
-                  alt="Estudo de caso: QA Todoist"
-            />
+          <div data-aos="zoom-in" class="bg-white border border-gray-200 rounded-xl p-6 shadow-md hover:shadow-lg transition flex flex-col items-center text-center">
+            <img src="assets/img/projeto-002.png" alt="Estudo de Caso: QA Todoist" class="h-48 object-cover mb-4 rounded-lg" />
+
+            <h3 class="text-xl font-semibold text-blue-600 mb-2">Estudo de Caso: QA no Todoist</h3>
+
             <p class="text-gray-600 mb-4">
-              Um projeto prático focado em testes manuais e documentação de casos de teste para o fluxo de cadastro da aplicação <b>Todoist</b>. Essencial para construir uma base sólida para a futura automação de testes.
+              Projeto prático de testes manuais e documentação de casos de teste para o fluxo de cadastro no Todoist.
             </p>
+
+            <div class="flex flex-wrap justify-center gap-2 mb-4">
+              <span class="bg-gray-200 text-sm px-2 py-1 rounded">Testes Manuais</span>
+              <span class="bg-gray-200 text-sm px-2 py-1 rounded">Documentação</span>
+              <span class="bg-gray-200 text-sm px-2 py-1 rounded">QA</span>
+            </div>
+
+            <div class="flex gap-4">
+              <a href="https://github.com/pablosscosta/qa-todoist" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Ver repositório</a>
+            </div>
           </div>
-        </div>
-        <div class="flex justify-center mt-6">
-          <a href="#projetos" data-aos="fade-up" class="items-center inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-full transition shadow-md hover:shadow-lg">
-              Ver os projetos
-          </a>
         </div>
       </div>
 
@@ -165,7 +179,7 @@
     <footer class="bg-gray-200 py-4 text-center text-sm text-gray-600 border-t border-gray-300">
       © 2025 Pablo Costa. Todos os direitos reservados.
     </footer>
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
     <script>AOS.init();</script>
 
   </body>
