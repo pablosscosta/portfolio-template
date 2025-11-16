@@ -10,19 +10,27 @@ Este portfólio foi construído usando as tecnologias fundamentais da web:
 * **HTML**
 * **CSS**
 * **JavaScript**
+* **Tailwind CSS**
+* **AOS.js** (Animate On Scroll)
 
 ---
 
 ### Ver a Aplicação
 
-Você pode explorar o portfólio online diretamente aqui:
+Você pode explorar o portfólio online diretamente aqui:  
 [https://pablosscosta.github.io/portfolio/](https://pablosscosta.github.io/portfolio/)
+
+---
+
+### Novidades
+
+- ✨ Adicionadas animações suaves com [AOS.js](https://michalsnik.github.io/aos/) para melhorar a experiência visual e tornar a navegação mais envolvente.
 
 ---
 
 ### Licença
 
-Este projeto está licenciado sob a licença **MIT** - veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob a licença **MIT** – veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 
