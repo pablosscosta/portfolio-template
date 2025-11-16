@@ -24,7 +24,7 @@ Você pode explorar o portfólio online diretamente aqui:
 
 ### Novidades
 
-- ✨ Adicionadas animações suaves com [AOS.js](https://michalsnik.github.io/aos/) para melhorar a experiência visual e tornar a navegação mais envolvente.
+- 🔄 Página `projetos.html` removida. Os projetos agora estão integrados diretamente na seção `#projetos` do `index.html` para uma navegação mais fluida.
 
 ---
 
