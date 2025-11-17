@@ -142,7 +142,36 @@
       © 2025 Pablo Costa. Todos os direitos reservados.
     </footer>
     <script src="assets/js/script.js"></script>
-    <script>AOS.init();</script>
+    <script>
+      fetch('assets/data/dados.json')
+        .then(response => response.json())
+        .then(dados => {
+          // Header
+          document.querySelector('header h1').textContent = dados.nome;
 
+          // Hero
+          document.querySelector('#hero h2').textContent = dados.nome;
+          document.querySelector('#hero p').textContent = `${dados.titulo} | Portfólio Profissional`;
+
+          // Sobre
+          document.querySelector('#sobre p').innerHTML = `
+            Olá! Sou <span class="text-blue-600 font-semibold">${dados.nome}</span>, um profissional com bacharelado em <b>Ciência da Computação</b> e experiência prática como <b>Analista de Suporte de TI</b>. Minha transição para <b>Quality Assurance</b> é um passo natural, pois minhas habilidades de desenvolvimento em aplicações web Full Stack me permitem entender os sistemas a fundo e identificar pontos de melhoria de forma mais eficaz. Este portfólio reflete a minha dedicação em aprender e evoluir, buscando sempre entregar softwares de alta qualidade.
+          `;
+
+          // Contato
+          document.querySelector('a[href^="mailto:"]').href = `mailto:${dados.email}`;
+          document.querySelector('a[href^="mailto:"]').innerHTML = `<i class="fas fa-envelope w-8 h-8 inline-block mr-1"></i> Email`;
+
+          document.querySelector('a[href*="linkedin.com"]').href = dados.linkedin;
+          document.querySelector('a[href*="linkedin.com"]').innerHTML = `<i class="fab fa-linkedin w-8 h-8 inline-block mr-1"></i> LinkedIn`;
+
+          document.querySelector('a[href*="github.com"]').href = dados.github;
+          document.querySelector('a[href*="github.com"]').innerHTML = `<i class="fab fa-github w-8 h-8 inline-block mr-1"></i> GitHub`;
+
+          // Footer
+          document.querySelector('footer').innerHTML = `© 2025 ${dados.nome}. Todos os direitos reservados.`;
+        });
+    </script>
+    <script>AOS.init();</script>
   </body>
 </html>

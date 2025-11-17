@@ -24,12 +24,7 @@ Você pode explorar o portfólio online diretamente aqui:
 
 ### Novidades
 
-- 📦 Criado arquivo `projetos.json` para escalar os cards de projeto via JavaScript.
-- 🧠 Preparado o projeto para modularização futura com dados externos.
-- 🌐 Meta tags para otimização de SEO e compartilhamento.
-- ⚙️ Implementado carregamento dinâmico dos projetos via JavaScript usando o arquivo `projetos.json`.
-- 📄 Cards de projeto agora são gerados automaticamente com base em dados externos, facilitando escalabilidade.
-
+- 🧩 Centralizados dados pessoais em `dados.json` e integrados dinamicamente no HTML via JavaScript, facilitando manutenção e personalização.
 
 
 ---
