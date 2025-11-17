@@ -5,18 +5,14 @@
     <meta property="og:title" content="Pablo Costa | Desenvolvedor Full Stack & QA" />
     <meta property="og:description" content="Explore os projetos e habilidades de Pablo Costa em desenvolvimento e qualidade de software." />
     <meta property="og:image" content="assets/img/avatar.jpg" />
-    <meta property="og:type" content="website" /> 
+    <meta property="og:type" content="website" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pablo Costa | Desenvolvedor Full Stack & QA</title>
-    <script src="https://cdn.tailwindcss.com"></script>  
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
-      rel="stylesheet"
-    />
-  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
     <script>
       tailwind.config = {
         theme: {
@@ -28,24 +24,20 @@
         },
       };
     </script>
-  
     <style>
       body {
         background-color: #fafafa;
       }
     </style>
-    <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
   </head>
-  
-  <body class="bg-gray-50 text-gray-800 font-sans antialiased leading-relaxed">
 
+  <body class="bg-gray-50 text-gray-800 font-sans antialiased leading-relaxed">
     <!-- Header -->
     <header class="bg-white border-b border-gray-200 fixed top-0 left-0 w-full z-20 shadow-sm backdrop-blur-sm bg-white/95">
       <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-xl font-extrabold text-blue-600 tracking-wide">Pablo Costa</h1>
+        <h1 class="text-xl font-extrabold text-blue-600 tracking-wide"></h1>
         <nav class="space-x-6">
           <a href="index.html" class="text-gray-600 hover:text-blue-600 transition">Home</a>
           <a href="#sobre" class="text-gray-600 hover:text-blue-600 transition">Sobre</a>
@@ -54,55 +46,34 @@
         </nav>
       </div>
     </header>
-    
-    
 
     <!-- Hero -->
     <section id="hero" data-aos="fade-up" class="pt-20 pb-16 text-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 text-gray-800">
       <div class="max-w-3xl mx-auto px-4 flex flex-col items-center">
-        <!-- Avatar -->
-        <img
-          src="assets/img/avatar.jpg"
-          alt="Foto de Pablo Costa"
-          class="w-28 h-28 rounded-full border-2 border-blue-500 shadow-lg mb-4 object-cover transition-transform duration-300 hover:scale-105"
-        />
-
-        <h2 class="text-4xl md:text-5xl font-extrabold mb-2 text-blue-600 drop-shadow-sm tracking-wide">Pablo Costa</h2>
-        <p class="text-lg md:text-xl text-gray-600 mb-4">Desenvolvedor Full Stack & Quality Assurance | Portfólio Profissional</p>
-
-        <a
-          href="#contato"
-          class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-full transition shadow-md hover:shadow-lg"
-        >
+        <img src="assets/img/avatar.jpg" alt="Foto de Pablo Costa" class="w-28 h-28 rounded-full border-2 border-blue-500 shadow-lg mb-4 object-cover transition-transform duration-300 hover:scale-105" />
+        <h2 id="hero-nome" class="text-4xl md:text-5xl font-extrabold mb-2 text-blue-600 drop-shadow-sm tracking-wide"></h2>
+        <p id="hero-titulo" class="text-lg md:text-xl text-gray-600 mb-4"></p>
+        <a href="#contato" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-full transition shadow-md hover:shadow-lg">
           Fale comigo
         </a>
       </div>
     </section>
 
-
-
-
     <!-- Sobre -->
     <section id="sobre" data-aos="fade-right" class="py-16 bg-gray-100 text-gray-700">
       <div class="max-w-4xl mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-4 tracking-wide">Sobre mim</h2>
-        <p class="text-lg leading-relaxed text-gray-600">
-          Olá! Sou <span class="text-blue-600 font-semibold">Pablo Costa</span>, um profissional com bacharelado em <b>Ciência da Computação</b> e experiência prática como <b>Analista de Suporte de TI</b>. Minha transição para <b>Quality Assurance</b> é um passo natural, pois minhas habilidades de desenvolvimento em aplicações web Full Stack me permitem entender os sistemas a fundo e identificar pontos de melhoria de forma mais eficaz. Este portfólio reflete a minha dedicação em aprender e evoluir, buscando sempre entregar softwares de alta qualidade.
-        </p>
+        <p id="descricao-sobre" class="text-lg leading-relaxed text-gray-600"></p>
       </div>
     </section>
-
 
     <!-- Projetos -->
     <section id="projetos" class="py-16 bg-white text-gray-700">
       <div class="max-w-6xl mx-auto px-4">
         <h2 class="text-3xl md:text-4xl font-bold text-blue-600 text-center mb-8 tracking-wide">Projetos</h2>
-
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
       </div>
-
     </section>
-
 
     <!-- Contato -->
     <section id="contato" data-aos="fade-left" class="py-16 bg-gray-100 text-gray-700">
@@ -111,64 +82,39 @@
         <p class="text-lg text-gray-600 mb-6">
           Me envie uma mensagem ou conecte-se comigo pelas redes abaixo.
         </p>
-
         <div class="flex justify-center space-x-6">
-          <!-- Email -->
-          <a href="mailto:dev.pablocosta@gmail.com" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
-            <i class="fas fa-envelope w-8 h-8 inline-block mr-1"></i>
-            Email
+          <a id="email-link" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
+            <i class="fas fa-envelope w-8 h-8 inline-block mr-1"></i> Email
           </a>
-
-          <!-- LinkedIn -->
-          <a href="https://linkedin.com/in/pablosilva013" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
-            <i class="fab fa-linkedin w-8 h-8 inline-block mr-1"></i>
-            LinkedIn
+          <a id="linkedin-link" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
+            <i class="fab fa-linkedin w-8 h-8 inline-block mr-1"></i> LinkedIn
           </a>
-
-          <!-- GitHub -->
-          <a href="https://github.com/pablosscosta" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
-            <i class="fab fa-github w-8 h-8 inline-block mr-1"></i>
-            GitHub
+          <a id="github-link" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
+            <i class="fab fa-github w-8 h-8 inline-block mr-1"></i> GitHub
           </a>
         </div>
       </div>
     </section>
 
-
-
-
     <!-- Footer -->
     <footer class="bg-gray-200 py-4 text-center text-sm text-gray-600 border-t border-gray-300">
       © 2025 Pablo Costa. Todos os direitos reservados.
     </footer>
+
     <script src="assets/js/script.js"></script>
     <script>
       fetch('assets/data/dados.json')
         .then(response => response.json())
         .then(dados => {
-          // Header
           document.querySelector('header h1').textContent = dados.nome;
-
-          // Hero
-          document.querySelector('#hero h2').textContent = dados.nome;
-          document.querySelector('#hero p').textContent = `${dados.titulo} | Portfólio Profissional`;
-
-          // Sobre
-          document.querySelector('#sobre p').innerHTML = `
+          document.querySelector('#hero-nome').textContent = dados.nome;
+          document.querySelector('#hero-titulo').textContent = `${dados.titulo} | Portfólio Profissional`;
+          document.querySelector('#descricao-sobre').innerHTML = `
             Olá! Sou <span class="text-blue-600 font-semibold">${dados.nome}</span>, um profissional com bacharelado em <b>Ciência da Computação</b> e experiência prática como <b>Analista de Suporte de TI</b>. Minha transição para <b>Quality Assurance</b> é um passo natural, pois minhas habilidades de desenvolvimento em aplicações web Full Stack me permitem entender os sistemas a fundo e identificar pontos de melhoria de forma mais eficaz. Este portfólio reflete a minha dedicação em aprender e evoluir, buscando sempre entregar softwares de alta qualidade.
           `;
-
-          // Contato
-          document.querySelector('a[href^="mailto:"]').href = `mailto:${dados.email}`;
-          document.querySelector('a[href^="mailto:"]').innerHTML = `<i class="fas fa-envelope w-8 h-8 inline-block mr-1"></i> Email`;
-
-          document.querySelector('a[href*="linkedin.com"]').href = dados.linkedin;
-          document.querySelector('a[href*="linkedin.com"]').innerHTML = `<i class="fab fa-linkedin w-8 h-8 inline-block mr-1"></i> LinkedIn`;
-
-          document.querySelector('a[href*="github.com"]').href = dados.github;
-          document.querySelector('a[href*="github.com"]').innerHTML = `<i class="fab fa-github w-8 h-8 inline-block mr-1"></i> GitHub`;
-
-          // Footer
+          document.querySelector('#email-link').href = `mailto:${dados.email}`;
+          document.querySelector('#linkedin-link').href = dados.linkedin;
+          document.querySelector('#github-link').href = dados.github;
           document.querySelector('footer').innerHTML = `© 2025 ${dados.nome}. Todos os direitos reservados.`;
         });
     </script>
