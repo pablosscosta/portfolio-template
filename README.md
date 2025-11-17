@@ -24,8 +24,12 @@ Você pode explorar o portfólio online diretamente aqui:
 
 ### Novidades
 
-- 🗂 Reorganizada a estrutura do projeto com a criação da pasta `assets/`, separando imagens, scripts e estilos.
-- 🎨 Refatorados os cards da seção de projetos com layout em grid, animações, destaque para tecnologias utilizadas e botões de ação.
+- 📦 Criado arquivo `projetos.json` para escalar os cards de projeto via JavaScript.
+- 🧠 Preparado o projeto para modularização futura com dados externos.
+- 🌐 Meta tags para otimização de SEO e compartilhamento.
+- ⚙️ Implementado carregamento dinâmico dos projetos via JavaScript usando o arquivo `projetos.json`.
+- 📄 Cards de projeto agora são gerados automaticamente com base em dados externos, facilitando escalabilidade.
+
 
 
 ---

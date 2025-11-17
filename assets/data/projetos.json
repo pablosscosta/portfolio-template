@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Portfólio Profissional",
+    "descricao": "Página pessoal construída com HTML, CSS e JavaScript, servindo como vitrine de habilidades e transição para QA.",
+    "imagem": "assets/img/projeto-001.png",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "repositorio": "https://github.com/pablosscosta/portfolio",
+    "deploy": "https://pablosscosta.github.io/portfolio/"
+  },
+  {
+    "titulo": "Estudo de Caso: QA no Todoist",
+    "descricao": "Projeto prático de testes manuais e documentação de casos de teste para o fluxo de cadastro no Todoist.",
+    "imagem": "assets/img/projeto-002.png",
+    "tecnologias": ["Testes Manuais", "Documentação", "QA"],
+    "repositorio": "https://github.com/pablosscosta/qa-project-todoist"
+  }
+]
