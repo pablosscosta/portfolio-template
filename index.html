@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta name="description" content="Portfólio profissional de Pablo Costa, desenvolvedor Full Stack e QA." />
-    <meta property="og:title" content="Pablo Costa | Desenvolvedor Full Stack & QA" />
-    <meta property="og:description" content="Explore os projetos e habilidades de Pablo Costa em desenvolvimento e qualidade de software." />
-    <meta property="og:image" content="assets/img/avatar.jpg" />
-    <meta property="og:type" content="website" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pablo Costa | Desenvolvedor Full Stack & QA</title>
+    <title>Seu Nome | Portfólio</title>
+    <meta name="description" content="Portfólio pessoal para apresentar projetos e habilidades." />
+    <meta property="og:title" content="Seu Nome | Portfólio" />
+    <meta property="og:description" content="Explore projetos, experiências e formas de contato." />
+    <meta property="og:image" content="assets/img/avatar.jpg" />
+    <meta property="og:type" content="website" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
     <script>
       tailwind.config = {
@@ -24,22 +23,15 @@
         },
       };
     </script>
-    <style>
-      body {
-        background-color: #fafafa;
-      }
-    </style>
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   </head>
 
   <body class="bg-gray-50 text-gray-800 font-sans antialiased leading-relaxed">
-    <!-- Header -->
     <header class="bg-white border-b border-gray-200 fixed top-0 left-0 w-full z-20 shadow-sm backdrop-blur-sm bg-white/95">
       <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1 class="text-xl font-extrabold text-blue-600 tracking-wide"></h1>
         <nav class="space-x-6">
-          <a href="index.html" class="text-gray-600 hover:text-blue-600 transition">Home</a>
           <a href="#sobre" class="text-gray-600 hover:text-blue-600 transition">Sobre</a>
           <a href="#projetos" class="text-gray-600 hover:text-blue-600 transition">Projetos</a>
           <a href="#contato" class="text-gray-600 hover:text-blue-600 transition">Contato</a>
@@ -47,58 +39,51 @@
       </div>
     </header>
 
-    <!-- Hero -->
-    <section id="hero" data-aos="fade-up" class="pt-20 pb-16 text-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 text-gray-800">
+    <section id="hero" data-aos="fade-up" class="pt-20 pb-16 text-center bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       <div class="max-w-3xl mx-auto px-4 flex flex-col items-center">
-        <img src="assets/img/avatar.jpg" alt="Foto de Pablo Costa" class="w-28 h-28 rounded-full border-2 border-blue-500 shadow-lg mb-4 object-cover transition-transform duration-300 hover:scale-105" />
-        <h2 id="hero-nome" class="text-4xl md:text-5xl font-extrabold mb-2 text-blue-600 drop-shadow-sm tracking-wide"></h2>
+        <img src="assets/img/avatar.jpg" alt="Foto de perfil" class="w-28 h-28 rounded-full border-2 border-blue-500 shadow-lg mb-4 object-cover" />
+        <h2 id="hero-nome" class="text-4xl md:text-5xl font-extrabold mb-2 text-blue-600 tracking-wide"></h2>
         <p id="hero-titulo" class="text-lg md:text-xl text-gray-600 mb-4"></p>
         <a href="#contato" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-full transition shadow-md hover:shadow-lg">
-          Fale comigo
+          Entrar em contato
         </a>
       </div>
     </section>
 
-    <!-- Sobre -->
-    <section id="sobre" data-aos="fade-right" class="py-16 bg-gray-100 text-gray-700">
-      <div class="max-w-4xl mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-4 tracking-wide">Sobre mim</h2>
-        <p id="descricao-sobre" class="text-lg leading-relaxed text-gray-600"></p>
+    <section id="sobre" data-aos="fade-right" class="py-16 bg-gray-100 text-center">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-4">Sobre</h2>
+        <p id="descricao-sobre" class="text-lg text-gray-600"></p>
       </div>
     </section>
 
-    <!-- Projetos -->
-    <section id="projetos" class="py-16 bg-white text-gray-700">
+    <section id="projetos" class="py-16 bg-white">
       <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-blue-600 text-center mb-8 tracking-wide">Projetos</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-600 text-center mb-8">Projetos</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
       </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contato" data-aos="fade-left" class="py-16 bg-gray-100 text-gray-700">
-      <div class="max-w-3xl mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-6 tracking-wide">Contato</h2>
-        <p class="text-lg text-gray-600 mb-6">
-          Me envie uma mensagem ou conecte-se comigo pelas redes abaixo.
-        </p>
+    <section id="contato" data-aos="fade-left" class="py-16 bg-gray-100 text-center">
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-6">Contato</h2>
+        <p class="text-lg text-gray-600 mb-6">Entre em contato pelas redes abaixo.</p>
         <div class="flex justify-center space-x-6">
-          <a id="email-link" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
-            <i class="fas fa-envelope w-8 h-8 inline-block mr-1"></i> Email
+          <a id="email-link" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
+            <i class="fas fa-envelope mr-1"></i> Email
           </a>
-          <a id="linkedin-link" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
-            <i class="fab fa-linkedin w-8 h-8 inline-block mr-1"></i> LinkedIn
+          <a id="linkedin-link" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
+            <i class="fab fa-linkedin mr-1"></i> LinkedIn
           </a>
-          <a id="github-link" data-aos="zoom-in" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
-            <i class="fab fa-github w-8 h-8 inline-block mr-1"></i> GitHub
+          <a id="github-link" target="_blank" class="text-blue-600 hover:text-blue-700 transition">
+            <i class="fab fa-github mr-1"></i> GitHub
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-gray-200 py-4 text-center text-sm text-gray-600 border-t border-gray-300">
-      © 2025 Pablo Costa. Todos os direitos reservados.
+      © 2025 Seu Nome. Todos os direitos reservados.
     </footer>
 
     <script src="assets/js/script.js"></script>
@@ -108,16 +93,16 @@
         .then(dados => {
           document.querySelector('header h1').textContent = dados.nome;
           document.querySelector('#hero-nome').textContent = dados.nome;
-          document.querySelector('#hero-titulo').textContent = `${dados.titulo} | Portfólio Profissional`;
+          document.querySelector('#hero-titulo').textContent = dados.titulo;
           document.querySelector('#descricao-sobre').innerHTML = `
-            Olá! Sou <span class="text-blue-600 font-semibold">${dados.nome}</span>, um profissional com bacharelado em <b>Ciência da Computação</b> e experiência prática como <b>Analista de Suporte de TI</b>. Minha transição para <b>Quality Assurance</b> é um passo natural, pois minhas habilidades de desenvolvimento em aplicações web Full Stack me permitem entender os sistemas a fundo e identificar pontos de melhoria de forma mais eficaz. Este portfólio reflete a minha dedicação em aprender e evoluir, buscando sempre entregar softwares de alta qualidade.
+            Olá! Sou <span class="text-blue-600 font-semibold">${dados.nome}</span>. Este é um espaço para apresentar meus projetos, experiências e formas de contato. Fique à vontade para explorar e conhecer mais sobre meu trabalho.
           `;
           document.querySelector('#email-link').href = `mailto:${dados.email}`;
           document.querySelector('#linkedin-link').href = dados.linkedin;
           document.querySelector('#github-link').href = dados.github;
           document.querySelector('footer').innerHTML = `© 2025 ${dados.nome}. Todos os direitos reservados.`;
         });
+      AOS.init();
     </script>
-    <script>AOS.init();</script>
   </body>
 </html>

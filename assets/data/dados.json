@@ -1,10 +1,7 @@
 {
-  "nome": "Pablo Costa",
-  "titulo": "Desenvolvedor Full Stack",
-  "email": "pablo@email.com",
-  "github": "https://github.com/pablosscosta",
-  "linkedin": "https://linkedin.com/in/pablosscosta",
-  "linktree": "https://my-linktree-pablosscosta.netlify.app",
-  "cidade": "Bento Gonçalves, RS",
-  "descricao": "Sou desenvolvedor com foco em aplicações web modernas, testes automatizados e microsserviços."
+  "nome": "Seu Nome",
+  "titulo": "Sua profissão",
+  "email": "seuemail@exemplo.com",
+  "linkedin": "https://linkedin.com/in/seuusuario",
+  "github": "https://github.com/seuusuario"
 }

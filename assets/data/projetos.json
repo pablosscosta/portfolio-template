@@ -1,17 +1,25 @@
 [
   {
-    "titulo": "Portfólio Profissional",
-    "descricao": "Página pessoal construída com HTML, CSS e JavaScript, servindo como vitrine de habilidades e transição para QA.",
+    "titulo": "Nome do Projeto 1",
+    "descricao": "Breve descrição do projeto. Explique o que ele faz e quais tecnologias foram utilizadas.",
     "imagem": "assets/img/projeto-001.png",
-    "tecnologias": ["HTML", "CSS", "JavaScript"],
-    "repositorio": "https://github.com/pablosscosta/portfolio",
-    "deploy": "https://pablosscosta.github.io/portfolio/"
+    "tecnologias": ["Tecnologia 1", "Tecnologia 2"],
+    "repositorio": "https://github.com/seuusuario/repositorio-projeto-1",
+    "deploy": "https://seudominio.com/projeto-1"
   },
   {
-    "titulo": "Estudo de Caso: QA no Todoist",
-    "descricao": "Projeto prático de testes manuais e documentação de casos de teste para o fluxo de cadastro no Todoist.",
+    "titulo": "Nome do Projeto 2",
+    "descricao": "Breve descrição do projeto. Pode ser um estudo de caso, uma aplicação ou um experimento.",
     "imagem": "assets/img/projeto-002.png",
-    "tecnologias": ["Testes Manuais", "Documentação", "QA"],
-    "repositorio": "https://github.com/pablosscosta/qa-project-todoist"
+    "tecnologias": ["Tecnologia A", "Tecnologia B"],
+    "repositorio": "https://github.com/seuusuario/repositorio-projeto-2"
+  },
+  {
+    "titulo": "Nome do Projeto 3",
+    "descricao": "Descreva o propósito do projeto e como ele pode ser útil ou interessante.",
+    "imagem": "assets/img/projeto-003.png",
+    "tecnologias": ["Tecnologia X", "Tecnologia Y"],
+    "repositorio": "https://github.com/seuusuario/repositorio-projeto-3",
+    "deploy": "https://seudominio.com/projeto-3"
   }
 ]
