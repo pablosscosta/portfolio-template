@@ -43,6 +43,7 @@ Local: `assets/data/dados.json`
 {
   "nome": "Seu Nome",
   "titulo": "Seu título ou área de atuação",
+  "descricao": "Breve descrição profissional que será exibida na seção 'Sobre'.",
   "email": "seuemail@exemplo.com",
   "linkedin": "https://linkedin.com/in/seuusuario",
   "github": "https://github.com/seuusuario"
