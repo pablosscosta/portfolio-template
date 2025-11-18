@@ -1,6 +1,7 @@
 {
   "nome": "Seu Nome",
   "titulo": "Sua profissão",
+  "descricao": "Neste espaço insira um texto que conte um pouco sobre sua experiência profissional",
   "email": "seuemail@exemplo.com",
   "linkedin": "https://linkedin.com/in/seuusuario",
   "github": "https://github.com/seuusuario"

@@ -94,9 +94,7 @@
           document.querySelector('header h1').textContent = dados.nome;
           document.querySelector('#hero-nome').textContent = dados.nome;
           document.querySelector('#hero-titulo').textContent = dados.titulo;
-          document.querySelector('#descricao-sobre').innerHTML = `
-            Olá! Sou <span class="text-blue-600 font-semibold">${dados.nome}</span>. Este é um espaço para apresentar meus projetos, experiências e formas de contato. Fique à vontade para explorar e conhecer mais sobre meu trabalho.
-          `;
+          document.querySelector('#descricao-sobre').innerHTML = dados.descricao;
           document.querySelector('#email-link').href = `mailto:${dados.email}`;
           document.querySelector('#linkedin-link').href = dados.linkedin;
           document.querySelector('#github-link').href = dados.github;
