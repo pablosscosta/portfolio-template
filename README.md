@@ -107,6 +107,15 @@ Você pode publicar seu portfólio gratuitamente usando:
 
 ---
 
+## 🌐 Deploy
+
+Este template está disponível publicamente via GitHub Pages:  
+[https://pablosscosta.github.io/portfolio-template](https://pablosscosta.github.io/portfolio-template)
+
+Você pode usar este modelo como base para criar seu próprio portfólio.
+
+---
+
 ## 📄 Licença
 
 Este template é livre para uso pessoal e profissional.  
