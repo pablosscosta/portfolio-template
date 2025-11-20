@@ -1,91 +1,44 @@
-# 📁 Template de Portfólio Pessoal
+# 📘 Template de Portfólio Pessoal
 
-## 👋 Sobre o projeto
-
-Este é um template de portfólio pessoal feito com HTML, CSS (via Tailwind) e JavaScript.  
-Ideal para profissionais que desejam apresentar seus projetos, habilidades e formas de contato de maneira simples e elegante.
+Template de portfólio pessoal feito com HTML, Tailwind CSS e JavaScript.  
+Ideal para apresentar projetos, habilidades e formas de contato de maneira clara e responsiva.
 
 ---
 
-## 🚀 Como usar
+## 📌 Visão Geral / Contexto
 
-1. **Clone o repositório:**
-
-```bash
-git clone https://github.com/seuusuario/seu-repositorio.git
-```
-
-2. **Execute em um servidor local:**
-
-Este projeto utiliza `fetch()` para carregar dados externos (JSON).  
-Por isso, **não funciona corretamente ao abrir o `index.html` diretamente no navegador**.  
-Use uma das opções abaixo para rodar localmente:
-
-- Extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code
-- Servidor local com Python:
-
-```bash
-# Python 3
-python -m http.server
-```
-
-- Ferramentas como Vite, Parcel ou outros bundlers
+Este projeto foi desenvolvido para profissionais que desejam ter uma presença online simples e elegante.  
+Permite exibir informações pessoais, projetos e formas de contato de forma organizada e responsiva.  
+É ideal para desenvolvedores, designers e freelancers que buscam uma vitrine digital.
 
 ---
 
-## ✏️ Personalização
+## 📊 Status do Projeto
 
-### 1. Informações pessoais (`dados.json`)
-
-Local: `assets/data/dados.json`
-
-```json
-{
-  "nome": "Seu Nome",
-  "titulo": "Seu título ou área de atuação",
-  "descricao": "Breve descrição profissional que será exibida na seção 'Sobre'.",
-  "email": "seuemail@exemplo.com",
-  "linkedin": "https://linkedin.com/in/seuusuario",
-  "github": "https://github.com/seuusuario"
-}
-```
-
-### 2. Projetos (`projetos.json`)
-
-Local: `assets/data/projetos.json`
-
-Adicione, edite ou remova projetos conforme necessário.  
-**Os campos `deploy` e `tecnologias` são opcionais.**
-
-```json
-{
-  "titulo": "Nome do Projeto",
-  "descricao": "Descrição breve do projeto.",
-  "imagem": "assets/img/projeto-001.png",
-  "tecnologias": ["HTML", "CSS", "JavaScript"],
-  "repositorio": "https://github.com/seuusuario/repositorio",
-  "deploy": "https://seudominio.com/projeto"
-}
-```
-
-### 3. Imagem de perfil
-
-Substitua o arquivo `assets/img/avatar.jpg` pela sua própria foto.  
-Mantenha o nome do arquivo ou atualize o caminho no HTML.
+- 🧪 MVP funcional 
 
 ---
 
-## 🌐 Publicação
+## 🚀 Tecnologias Utilizadas
 
-Você pode publicar seu portfólio gratuitamente usando:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
+- HTML  
+- Tailwind CSS (via CDN)  
+- JavaScript  
+- AOS (Animate On Scroll)
 
 ---
 
-## 📦 Estrutura de pastas
+## 🛠️ Funcionalidades
+
+- [x] Página de apresentação com nome, título e descrição  
+- [x] Listagem dinâmica de projetos via JSON  
+- [x] Animações com AOS  
+- [x] Layout responsivo  
+- [ ] Tema escuro (planejado)
+
+---
+
+## 📂 Estrutura do Projeto
 
 ```
 ├── assets/
@@ -98,25 +51,58 @@ Você pode publicar seu portfólio gratuitamente usando:
 
 ---
 
-## 🛠️ Tecnologias usadas
+## 📦 Instalação / Como Executar
 
-- HTML  
-- Tailwind CSS (via CDN)  
-- JavaScript  
-- AOS (Animate On Scroll)
+```bash
+# Clone o repositório
+git clone https://github.com/pablosscosta/portfolio-template.git
+
+# Acesse a pasta do projeto
+cd portfolio-template
+```
+
+Este projeto utiliza `fetch()` para carregar dados externos (JSON).  
+Por isso, **não funciona corretamente ao abrir o `index.html` diretamente no navegador**.  
+Use uma das opções abaixo para rodar localmente:
+
+- Extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code  
+- Servidor local com Python:
+
+```bash
+# Python 3
+python -m http.server
+```
+
+- Ferramentas como Vite, Parcel ou outros bundlers
 
 ---
 
-## 🌐 Deploy
+## 🌐 Deploy / Acesso Online
 
-Este template está disponível publicamente via GitHub Pages:  
+Este template está disponível publicamente para visualização via GitHub Pages:  
 [https://pablosscosta.github.io/portfolio-template](https://pablosscosta.github.io/portfolio-template)
 
-Você pode usar este modelo como base para criar seu próprio portfólio.
+> ⚠️ Este link exibe o template em funcionamento, mas não permite edição ou personalização direta.  
+> Para usar como base, clone o repositório e personalize localmente.
+
+
+---
+
+## ⏭️ Próximas Etapas
+
+- [ ] Adicionar tema escuro  
 
 ---
 
 ## 📄 Licença
 
-Este template é livre para uso pessoal e profissional.  
-Sinta-se à vontade para adaptar e compartilhar!
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+
+---
+
+## 👤 Autor / Contato
+
+**Pablo Sousa da Costa**  
+[LinkedIn](https://www.linkedin.com/in/pablosilva013/)  
+📧 pablosousa013@gmail.com
